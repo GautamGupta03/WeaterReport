@@ -18,7 +18,7 @@ public class OpenWeatherMapApplication {
             int option = scanner.nextInt();
             scanner.nextLine(); // Consume the newline character after reading the integer.
             
-            
+           //In this both date and time are taken as input to give more accurate answer.
             switch (option) {
             case 1:
                 System.out.print("Enter the date and time (yyyy-MM-dd HH:mm:ss): ");
@@ -62,6 +62,7 @@ public class OpenWeatherMapApplication {
     }
 }
 
+//  Use this only when date is given as input.
 
 //            switch (option) {
 //                case 1:
