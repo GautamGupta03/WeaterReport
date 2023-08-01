@@ -24,6 +24,9 @@ public class WeatherService {
         }
         return null; // Weather data not found for the given date and time
     }
+
+ // Use this commented code only when date is given as an input to fetch out answer.   
+
 //    // Extract temperature for the given date
 //    public double getTemperatureForDate(String date) {
 //        WeatherData weatherData = getWeatherData();
